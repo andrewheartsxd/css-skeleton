@@ -110,3 +110,13 @@
   background-color: yellow;
   */
 }
+
+.price {
+  list-style:none;
+  text-align: center;
+}
+
+.food {
+  list-style:none;
+  text-align: left;
+}
