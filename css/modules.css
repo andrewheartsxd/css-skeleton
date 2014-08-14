@@ -57,58 +57,55 @@
 }
 
 #image1 {
+  /*
   background-image: url(http://i.imgur.com/D4MDAVR.jpg);
   background-size: cover;
   padding-top: 500px;
   padding-bottom: 500px;
   box-sizing: border-box;
+  */
 }
 #image2 {
+  /*
   background-image: url(http://i.imgur.com/bTG80fC.jpg);
   background-size: cover;
   padding-top: 500px;
   padding-bottom: 500px;
+  */
 }
 #image3 {
+  /*
   content: url(http://i.imgur.com/17zQVCs.jpg);
+  */
 }
 #image4 {
+  /*
   content: url(http://i.imgur.com/8JmcOFA.jpg);
+  */
 }
 #image5 {
+  /*
   content: url(http://i.imgur.com/1voUdtS.jpg);
+  */
 }
 #image6 {
+  /*
   content: url(http://i.imgur.com/COIATtm.jpg);
+  */
 }
 #image7 {
+  /*
   content: url(http://i.imgur.com/4Yqj22d.jpg);
+  */
 }
 #image8 {
+  /*
   content: url(http://i.imgur.com/UDtiTOW.jpg);
+  */
 }
 
 .container {
   margin-top: 20px;
-}
-
-.caption {
-  opacity: 0;
-  text-align: center;
-  color: #FFFFFF;
-  font-weight: bold;
-  /*
-  margin:0px;
-  color: purple;
-  */
-  }
-
-.caption:hover {
-  opacity: 1;
-  color: red;
-  /*
-  background-color: yellow;
-  */
 }
 
 .price {
