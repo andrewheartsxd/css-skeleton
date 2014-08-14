@@ -108,12 +108,14 @@
   margin-top: 20px;
 }
 
-.price {
+.menuitem {
   list-style:none;
+}
+
+.price {
   text-align: center;
 }
 
 .food {
-  list-style:none;
   text-align: left;
 }
