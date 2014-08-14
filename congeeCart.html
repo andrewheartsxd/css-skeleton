@@ -2,9 +2,12 @@
 <html>
   <head>
     <title>Congee Fit For A Champ</title>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="skeleton.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- using SMACSS naming conventions -->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts.css">
+    <link rel="stylesheet" type="text/css" href="css/modules.css">
+    <link rel="stylesheet" type="text/css" href="css/states.css">
+    <link rel="stylesheet" type="text/css" href="css/themes.css">
   </head>
 
   <body>
@@ -66,54 +69,145 @@
     </div>
 
     <div class="container">
-      <div class="eight columns" id>
-          <div id="image1" class="left"></div>
+      <div class="eight columns">
+        <figure>
+          <img id="image1" class="image" src="http://i.imgur.com/D4MDAVR.jpg"
+            alt="A white plate with patties of rice covered with brown, white and green drizzles and a leaf garnish"
+          >
+        </figure>
       </div>
 
-      <div class="eight columns" id>
-        <div id="image2" class="left"></div>
+      <div class="eight columns" >
+        <figure>
+          <img id="image2" class="image" src="http://i.imgur.com/bTG80fC.jpg"
+            alt="Three white bowls on a wood block table arranged in a line from near to far with the nearest bowl containing white rice porridge covered with crab legs, the next furthest bowl containing yellow rice porridge, and the farthest bowl containing fried rice cubes covered with bean sprouts"
+          >
+        </figure>
       </div>
     </div>
 
     <div class="container">
-      <div class="eight columns" id>
-        <div id="image3" class="left"></div>
+      <div class="eight columns" >
+        <img id="image3" class="image" src="http://i.imgur.com/17zQVCs.jpg"
+          alt="A white plate on a dark wood table with the plate having three open-faced buns with parsley, sliced cucumber and sliced carrot, and also with the plate having a small bowl containing dipping sauce"
+        >
       </div>
 
-      <div class="eight columns" id>
-        <div id="image7" class="left"></div>
+      <div class="eight columns" >
+        <img id="image7" class="image" src="http://i.imgur.com/4Yqj22d.jpg"
+          alt="Three white bowls on a wood block table arranged in a triangle with the right bowl containing white rice porridge covered with crab legs, the left bowl containing yellow rice porridge, and the top bowl containing fried rice cubes covered with bean sprouts"
+        >
       </div>
     </div>
 
 
     <div class="container">
-      <div class="sixteen columns" id>
+      <div class="sixteen columns" >
         <div class="mainItem" id="menu"></div>
           <header class="mainHead">Menu</header>
             <p class="mainBody">Our congee is prepared nightly using super premium Takashi rice (each grain is hand polished and imported from the rice paddies of Japan) and fresh mountain spring water decafiltered drop by drop via reverse neutral drive osmosis. This results in a flavor base that is as exquisitely plain as white on rice. You can then customize your bowl of piping hot congee using these unique, quality ingredients:</p>
-            <ul>
-              <li>Zabar Deli & Gourmet Foods Matzah Balls</li>
-              <li>Sakuraniku</li>
-              <li>Orkney Scottish island cheddar</li>
-              <li>Aebleskiver, lovage and parsley</li>
-              <li>Smoked fresh salmon</li>
-              <li>Thousands of other fresh, local options!</li>
-            </ul>
-        </div>
+
+    <div class="container">
+      <div class="sixteen columns" >
+        <h4><center>Local Specialties</center></h4>
       </div>
     </div>
 
     <div class="container">
-      <div class="sixteen columns" id>
+      <div class ="eight columns">
+            <ul class="menuitem food">
+            <li>Zabar Deli & Gourmet Foods Matzah Balls</li>
+            <li>Sakuraniku</li>
+            <li>Orkney Scottish island cheddar</li>
+            <li>Aebleskiver, lovage and parsley</li>
+            <li>Smoked fresh salmon</li>
+            <li>Thousands of other fresh, local options!</li>
+          </ul>
+      </div>
+
+      <div class="eight columns">
+          <ul class="menuitem price">
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sixteen columns" >
+        <h4><center>Classic Favorites</center></h4>
+      </div>
+    </div>
+
+   <div class="container">
+      <div class ="eight columns">
+          <ul class="menuitem food">
+            <li>Zabar Deli & Gourmet Foods Matzah Balls</li>
+            <li>Sakuraniku</li>
+            <li>Orkney Scottish island cheddar</li>
+            <li>Aebleskiver, lovage and parsley</li>
+            <li>Smoked fresh salmon</li>
+            <li>Thousands of other fresh, local options!</li>
+          </ul>
+        </div>
+
+        <div class="eight columns">
+          <ul class="menuitem price">
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sixteen columns" >
+        <h4><center>Sides and Drinks</center></h4>
+      </div>
+    </div>
+
+   <div class="container">
+      <div class ="eight columns">
+          <ul class="menuitem food">
+            <li>Zabar Deli & Gourmet Foods Matzah Balls</li>
+            <li>Sakuraniku</li>
+            <li>Orkney Scottish island cheddar</li>
+            <li>Aebleskiver, lovage and parsley</li>
+            <li>Smoked fresh salmon</li>
+            <li>Thousands of other fresh, local options!</li>
+          </ul>
+        </div>
+
+        <div class="eight columns">
+          <ul class="menuitem price">
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+            <li>$10.50</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sixteen columns" >
         <div class="imageHolder">
-          <div id="image5" class="left"></div>
-          <div id="image6" class="left"></div>
+          <img id="image5" class="image" src="http://i.imgur.com/1voUdtS.jpg">
+          <img id="image6" class="image" src="http://i.imgur.com/COIATtm.jpg">
         </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="sixteen columns" id>
+      <div class="sixteen columns" >
         <div class="mainItem" id="about"></div>
           <header class="mainHead">About Us</header>
           <p class="mainBody">Champion Congee began as a side project when Andrew realized he couldn't get hot, wholesome congee on par with what his mom made while working in Seattle as a software developer. After obtaining funding from backers including Gordon Ramsay, Jiro Ono, and Elon Musk, Champion Congee opened at its first location on Amazon's SLU campus serving congee crafted from the finest organic, locally sourced ingredients. Following critical acclaim, the Champion Congee truck now caters to a fanatic following around the globe.</p>
@@ -122,8 +216,12 @@
     <div class="container">
       <div class="sixteen columns" id>
         <div class="imageHolder">
-          <div id="image4" class="left"></div>
-          <div id="image8" class="left"></div>
+          <img id="image4" class="image" src="http://i.imgur.com/8JmcOFA.jpg"
+            alt=""
+          >
+          <img id="image8" class="image" src="http://i.imgur.com/UDtiTOW.jpg"
+            alt=""
+          >
         </div>
       </div>
     </div>
