@@ -111,3 +111,13 @@
 figure {
   margin: 0px;
 }
+
+.price {
+  list-style:none;
+  text-align: center;
+}
+
+.food {
+  list-style:none;
+  text-align: left;
+}
