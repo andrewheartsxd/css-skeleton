@@ -108,16 +108,6 @@
   margin-top: 20px;
 }
 
-/*
-.caption {
-  opacity: 0;
-  text-align: center;
-  color: #FFFFFF;
-  font-weight: bold;
-  }
-
-.caption:hover {
-  opacity: 1;
-  color: red;
+figure {
+  margin: 0px;
 }
-*/
