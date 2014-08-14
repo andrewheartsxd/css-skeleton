@@ -108,6 +108,10 @@
   margin-top: 20px;
 }
 
+figure {
+  margin: 0px;
+}
+
 .menuitem {
   list-style:none;
 }
